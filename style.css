@@ -1,7 +1,10 @@
 body {
     display: flex;
     flex-direction: column;
+   
 }
+
+
 
 .header {
     display: flex;
@@ -24,8 +27,24 @@ ul {
     display: flex;
     background-color: rgb(31, 41, 55);
     font-size: 48px;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    
+    
     padding-top: 80px;
     flex-direction: column;
     color: rgb(249, 250, 248);
 }
+
+.content{
+    display: flex;
+    justify-content: space;
+
+}
+
+p{
+    
+    font-size: 24px;
+}
+
 
