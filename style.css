@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: rgb(31, 41, 55);
    
 }
 
@@ -12,7 +13,9 @@ body {
     background-color: rgb(31, 41, 55);
     font-size: 24px;
     color: #f9faf8;
-    padding: 15px 45px;
+    margin: 20px 175px;
+    justify-content: space-between;
+    /* padding: 15px 45px; */
 }
 
 ul {
@@ -38,7 +41,8 @@ ul {
 
 .content{
     display: flex;
-    justify-content: space;
+    justify-content:space-evenly;
+    
 
 }
 
