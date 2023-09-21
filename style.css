@@ -13,8 +13,9 @@ body {
     background-color: rgb(31, 41, 55);
     font-size: 24px;
     color: #f9faf8;
-    margin: 20px 175px;
+    margin: 20px 180px;
     justify-content: space-between;
+    flex: 1;
     /* padding: 15px 45px; */
 }
 
@@ -32,11 +33,10 @@ ul {
     font-size: 48px;
     color: #f9faf8;
     flex-wrap: wrap;
-    
-    
-    padding-top: 80px;
+    /* padding-top: 80px; */
     flex-direction: column;
     color: rgb(249, 250, 248);
+    flex: 1;
 }
 
 .content{
@@ -46,9 +46,47 @@ ul {
 
 }
 
+h2{
+    text-align: center;
+    margin-top: 0;
+}
+
+img{
+    object-fit: cover;
+    margin-bottom: auto;
+}
+
 p{
     
     font-size: 24px;
 }
 
+button{
+    background-color: #3882F6;
+    width: 80px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+/*I think the padding may be affecting the spacing*/
+.boxes{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: flex-start; */
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* h2 .boxes {
+    display: flex;
+    align-items: flex-start;
+} */
 
