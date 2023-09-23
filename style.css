@@ -51,11 +51,6 @@ h2{
     margin-top: 0;
 }
 
-img{
-    object-fit: cover;
-    margin-bottom: auto;
-}
-
 p{
     
     font-size: 24px;
@@ -71,8 +66,8 @@ button{
 /*I think the padding may be affecting the spacing*/
 .boxes{
     display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
     /* align-items: flex-start; */
     background-color: white;
     padding: 20px;
@@ -83,6 +78,35 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row img{
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    object-fit: cover;
+    margin-bottom: auto;
+}
+
+
+.row p{
+    font-size: 16px;
+    margin-top: 0;
+    
 }
 
 /* h2 .boxes {
