@@ -109,6 +109,28 @@ img{
     
 }
 
+.quote{
+    font-size: 36px;
+    background-color: #E5E7EB;
+    /* padding: 80px 20px; */
+    height: 40%;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.quote p{
+    
+    display: flex;
+    /* align-items: center; */
+    /* height: 100%; */
+
+    
+}
+
 /* h2 .boxes {
     display: flex;
     align-items: flex-start;
