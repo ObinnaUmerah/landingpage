@@ -112,22 +112,38 @@ img{
 .quote{
     font-size: 36px;
     background-color: #E5E7EB;
-    /* padding: 80px 20px; */
-    height: 40%;
+    padding: 120px 20px;
+    /*I could possibly bring the padding back since I found the issue */
+    /*It worked!*/
+    /* height: 40%; */
     font-style: italic;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
     
 }
 
-.quote p{
-    
+.signature{
     display: flex;
-    /* align-items: center; */
-    /* height: 100%; */
+    justify-content: flex-end;
+    width: 60%;
+    
+}
 
+.register{
+    background-color: white;
+    /* padding: 90px 20px; */
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: ;
+    
     
 }
 
