@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(31, 41, 55);
+    flex: 1 1 auto;
    
 }
 
@@ -15,7 +16,7 @@ body {
     color: #f9faf8;
     margin: 20px 180px;
     justify-content: space-between;
-    flex: 1;
+    /* flex: 1; */
     /* padding: 15px 45px; */
 }
 
@@ -141,11 +142,29 @@ img{
     align-items: center;
 }
 
-button{
-    background-color: ;
-    
-    
+.register button{
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    /*May have to set a height and width instead of setting the padding*/
+    height: 100px;
+    width: 1000px;
+    margin-bottom: 0;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    color: #F9FAF8;
 }
+
+/* .memo{
+    display: flex;
+    justify-content: flex-start;
+
+    
+} */
 
 /* h2 .boxes {
     display: flex;
