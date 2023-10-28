@@ -151,7 +151,10 @@ img{
 }
 
 .register .right{
-    border: 8px;
+    box-sizing: border-box;
+    padding:
+    border: 2px solid gray;
+
     
 }
 
