@@ -75,11 +75,12 @@ button{
     flex: 1;
 }
 
-.top{
+/* .top{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
+    font-weight: 700;
+} */
 
 .row{
     display: flex;
@@ -133,6 +134,13 @@ img{
     
 }
 
+.register #top {
+   display: flex;
+   justify-content: flex-start;
+   font-size: 22px;
+   font-weight: 700;
+}
+
 .register{
     background-color: white;
     /* padding: 90px 20px; */
@@ -140,6 +148,11 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.register .right{
+    border: 8px;
+    
 }
 
 .register button{
@@ -152,12 +165,13 @@ img{
     margin-bottom: 0;
     display: flex;
     white-space: nowrap;
-    flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 18px;
     color: #F9FAF8;
 }
+
+
 
 /* .memo{
     display: flex;
