@@ -152,10 +152,15 @@ img{
 
 .register .right{
     box-sizing: border-box;
-    padding:
+    padding: 10px 30px;
     border: 2px solid gray;
+    border-radius: 8px;
+    border-color: white;
+    font-weight: bold;
+}
 
-    
+.register .left{
+    font-size: 15px;
 }
 
 .register button{
