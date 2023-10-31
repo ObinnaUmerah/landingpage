@@ -16,6 +16,7 @@ body {
     color: #f9faf8;
     /* margin: 20px 180px; */
     justify-content: space-between;
+    margin: 0 80px;
     margin-bottom: 60px;
     /* flex: 1; */
     /* padding: 15px 45px; */
@@ -44,6 +45,7 @@ ul {
 .content{
     display: flex;
     justify-content:space-evenly;
+    margin: 0 80px;
     
     
 
@@ -57,6 +59,7 @@ h2{
 #description{
     
     font-size: 24px;
+    width: 50%;
 }
 
 button{
