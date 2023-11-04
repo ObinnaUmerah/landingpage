@@ -76,8 +76,8 @@ button{
     /* justify-content: center; */
     /* align-items: flex-start; */
     background-color: white;
-    padding: 20px;
     flex: 1;
+    margin: 0;
 }
 
 /* .top{
@@ -91,6 +91,8 @@ button{
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
 }
 
 .caption{
@@ -190,6 +192,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 
